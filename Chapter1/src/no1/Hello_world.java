@@ -1,10 +1,17 @@
 package no1;
 
-public class Hello_world {
-
+public class Hello_world { //클래스 이름은 파일명과 같아야 함
+	//접근제한자, 클래스선언, 클래스이름	
+	
+	//접근제한자, 반환타입, 메서드이름(파라미터-여러개 가능)
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		//메인메서드: static으로 선언된 함수(메서드)나 변수는 자바 버추얼 머신에서 인스턴스 객체의 생성 없이 호출할 수 있다.
+		//자바 프로그램을 실행하면 static으로 지정된 메서드를 찾아서 먼저 메모리에 할당시킴
+		//static으로 지정된 메서드가 여러 개인 경우 객체를 생성하는 것과 상관없이 모두 메모리에 할당시킴
+		//그런 후에 "main"으로 이름이 만들어진 메서드가 있는지를 찾아서 그 메서드를 가장 먼저 시작점의 메서드로써 호출함
+		//구현할 코드 작성
+		System.out.println("Hello World"); //print문 마지막에 세미콜론 필수
+		
 	}
 
 }
